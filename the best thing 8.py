@@ -20,7 +20,7 @@ if 'sign' not in st.session_state:
 if 'feed' not in st.session_state:
  st.session_state.feed=0
 if 'Secret_number' not in st.session_state:
- st.session_state.Secret_number=level*189//4873
+ st.session_state.Secret_number=st.session_state.level*189//4873
 
 num1 = st.session_state.num1
 num2 = st.session_state.num2
