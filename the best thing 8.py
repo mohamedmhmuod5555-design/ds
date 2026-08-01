@@ -37,7 +37,7 @@ st.title("Welcome to Math Game ")
 ch=st.number_input("ما لفلك ")
 s=st.number_input("ادخل الرقم السري لهذا المستوي ")
 if s==st.session_state.Secret_number:
- st.succes("أهلا بك في ليفل ",st.session_state.Secret_number)
+ st.success("أهلا بك في ليفل ",st.session_state.Secret_number)
 st.write(num1,sign,num2)
 number=st.number_input("ادخل النتيجه ")
 if st.button("تأكيد التخمين "):
